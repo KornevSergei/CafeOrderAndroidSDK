@@ -9,17 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/lightBrown"
+        android:background="@color/darkBrown2"
         android:orientation="vertical">
-
-
-        <ImageView
-            android:id="@+id/imageViewLogo"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:contentDescription="@string/logo_description"
-            android:src="@drawable/coffee" />
 
         <TextView
             android:id="@+id/textViewWelcome"
@@ -29,8 +20,18 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"
             android:text="@string/welcome"
+            android:textColor="@color/black"
             android:textSize="36sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/coffee" />
+
 
         <EditText
             android:id="@+id/editTextName"
@@ -39,21 +40,13 @@
             android:hint="@string/hint_name"
             android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/editTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/hint_password"
-            android:inputType="textPassword" />
-
         <Button
             android:id="@+id/buttonCreateOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:text="@string/button_create_order"
-            android:textColor="@color/darkBrown"
             android:onClick="onClickCreateOrder"
+            android:text="@string/button_create_order"
+            android:textColor="@color/black"
             android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

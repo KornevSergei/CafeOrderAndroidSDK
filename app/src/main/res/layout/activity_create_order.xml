@@ -13,7 +13,7 @@
         android:layout_marginBottom="8dp"
         android:gravity="center"
         android:text="@string/hello_user"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
             android:checked="true"
             android:onClick="onClickChangeDrink"
             android:text="@string/tea"
-            android:textColor="@color/darkBrown" />
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioButtonCoffee"
@@ -46,7 +46,7 @@
             android:layout_margin="8dp"
             android:onClick="onClickChangeDrink"
             android:text="@string/coffee"
-            android:textColor="@color/darkBrown" />
+            android:textColor="@color/black" />
 
     </RadioGroup>
 
@@ -57,7 +57,7 @@
         android:layout_margin="8dp"
         android:gravity="center"
         android:text="@string/additions"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/milk"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@id/checkboxSugar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewAdditions" />
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/sugar"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@id/checkboxLemon"
         app:layout_constraintStart_toEndOf="@id/checkboxMilk"
         app:layout_constraintTop_toBottomOf="@id/textViewAdditions" />
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:text="@string/lemon"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/checkboxSugar"
         app:layout_constraintTop_toBottomOf="@id/textViewAdditions" />
@@ -104,7 +104,7 @@
         android:layout_margin="8dp"
         android:gravity="center"
         android:text="@string/choose_drink"
-        android:textColor="@color/darkBrown"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
