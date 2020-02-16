@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/darkBrown2"
+        android:background="@color/lightCoffee"
         android:orientation="vertical">
 
         <TextView
@@ -32,7 +32,6 @@
             android:contentDescription="@string/logo_description"
             android:src="@drawable/coffee" />
 
-
         <EditText
             android:id="@+id/editTextName"
             android:layout_width="match_parent"
@@ -47,6 +46,7 @@
             android:onClick="onClickCreateOrder"
             android:text="@string/button_create_order"
             android:textColor="@color/black"
+            android:background="@color/darkCoffee"
             android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
